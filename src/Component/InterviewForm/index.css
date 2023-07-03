@@ -1,0 +1,75 @@
+.interview-form-container{
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0ecf9;
+}
+
+.interview-information-container{
+    background-color: white;
+    width: 80%;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 2%;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+    height: 80%;
+}
+
+.form-input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    width: 80%;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 2%;
+}
+
+.interview-form-input-element{
+    height: 30px;
+    width: 30%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.form-input-radio-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    width: 80%;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 2%;  
+}
+
+.form-input-radio-container{
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    width: 80%;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 2%;
+}
+
+.form-submit-btn{
+    background-color: #673ab7;
+    color: white;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

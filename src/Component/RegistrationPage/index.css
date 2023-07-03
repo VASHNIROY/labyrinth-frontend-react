@@ -1,0 +1,142 @@
+.register-page-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 89.3vh;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcHBwgHBwcHBwcNBw0NDQcHBw8ICQcNFREWFhURHx8YKCggGCYlJx8VITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDisZFRkrLS03KysrKysrKy0rKysrLS0rKystKysrKy0tKystKysrKysrKystKysrKysrKysrK//AABEIAJ8BPgMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAgAHBv/EABUQAQEAAAAAAAAAAAAAAAAAAAAB/8QAGQEBAQEBAQEAAAAAAAAAAAAAAgYBAwcF/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/APegh9B54AQ0mTSK0oKGoIoBTU0igoKaUOCimppQoKK1FKHBU01NKHBU01NKHBU00U4cFTTU0ocFTTU04cFTTU0ocFTTRThxNFNTShwVNNTShwVNNFKHBU01NOFBQ1BHHv2YJdGhmBFBRTUtKMkikUFSaKUKBNNFKHBU01NKFGqaamlDgqaamlDgqaaKcOJopqaUOCppqaUOCppqacdIKmmppQ4KK1FOFBU01NKOkFTTU0oUFFNTShwVNNScOMk0EUdASQl0awrCtKChgRQCmppFBRTU0ocFFNTShQUVqKRwVNNTShwVNNTShwUVqKcOCppqaUOCppqacOCppqaUOCppopw4KmmppQ4KmmppQ4KmmilDgqaamnCgorCkcFFNSUKOgMwS6NgopqWwoARSKCpNFIoKK1FKHBU01NKFGqaamlDgqaamlDgqaaKcOJopqaUOCppqacOCppqaUdIKmmppQ4KKamnCgqaamlHSCppqaUKCimppQ4Kmmppw41TTRShQVJSRx0JNIqWRkFSaKRQClNKFBQamkcappqaUKCimppQ4KmmppQ4KmmppQ4KK1FOHBU01NKHBU01NOHBU01NKHBU00UocFTTU04cFTTU0ocFTTU0ocappqacKCisKRwUU1JQoAwIo6DRTUpZGwAgigqaaKRQCtRShwVNNFKFBU01NKHBU01NKHBU01NOHGqaamlDgqaamlDgqaamnDgqaamlHSCimppwoKmmppR0gqaamlCgorVNKHGqaamnDjJpopQoKmmpI41DBrY6DUkJdGwCmppQoKCmlDgopqaUKCgppQ4KmmppQ4KmmppQ4KK1FOHBU01NKHBU01NOHBU01NKHBU00UocFTTU04cFTTU0ocFTTRShxNFNTThQUMCOCimpKFBQ1BG1SQ1roAIqXRsFTTQRQCtRShwVNNFKFAmmppQ4KmmppQ5BU01NOHBRTU0ocFTTU0ocFTTamnDgqaamlHSCitRThQVNNTSjpBU01NKFGqaamlDgqaamnDjVNNFIoKmlJHGDBrYKGoInQaKampeI2AU1NI41TTU0oUApqaUOCppqaUOCppqaUOCitRThwVNNTShwVNNTThwVNNTShwVNNFKHBU01NOHBU01NKHBRWopHBU01NOFBQ1BHBRTU0oUFDAiZNKa0owYEToNTSKl0bBRWopQ4KmmilCgqaamlDgqaamlDgqaaKcOCppqaUOCppqaUOCppqacOCppqaUdIKKamnCgqaamlHSQVNNTShRqmmppQ4Kmmppw41TSKRQVNKaRxgwaUFBqSawZmk//9k=");
+    background-size: cover;
+}
+
+.register-card{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.register-animation-contianer{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.register-animation{
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.register-input-elements{
+    height: 36px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+    color: black;
+    opacity: 0.5;
+    border-radius: 8px;
+    width: 300px;
+    font-size: 20px;
+    background-color: transparent;
+    border: solid black 1px;
+}
+
+.register-button{
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    width: 20%;
+    height: 40px;
+    align-items: center;
+    font-family: 'Roboto';
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    display: flex;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.register-signup-btns{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.link-css{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+ 
+}
+.error-msg{
+    color: red;
+}
+
+.popup-container {
+    background-color: #ffffff;
+    height: 600px;
+    width: 400px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+  }
+
+
+  .cancel-button {
+    background-color: transparent;
+    border: solid #cbd5e1 1px;
+    color: #cbd5e1;
+  }
+
+  .btn {
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .login-btn-link-css{
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.success-container{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

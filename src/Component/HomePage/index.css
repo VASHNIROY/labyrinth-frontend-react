@@ -1,0 +1,38 @@
+.home-page-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    height: 89.4vh;
+}
+
+.home-page-inner-container{
+    display: flex;
+}
+
+.schedule-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.schedule-btn{
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+    width: 105px;
+    cursor: pointer;
+}
+
+.landing-page-animation-container{
+    height: 80%;
+    width: 50%;
+}
